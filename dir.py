@@ -1,0 +1,2 @@
+import fori
+dir(fori)

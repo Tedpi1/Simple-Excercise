@@ -1,0 +1,12 @@
+languages =[
+    'C++',
+    'Java',
+    'Python',
+    'Ruby',
+    'JavaScript'
+]
+for lang in languages:
+    if lang=='Python':
+        break
+    print(lang)
+print('Done')

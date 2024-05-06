@@ -1,0 +1,4 @@
+def animal(name: str):
+    print(name)
+    return animal
+animal('cat')('Dockey')('lion')

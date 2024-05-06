@@ -1,0 +1,6 @@
+def rectangle():
+    for x in range(0,5):
+        t=""
+        for y in range(0,5):
+            t=t +("*") 
+        print(t)
