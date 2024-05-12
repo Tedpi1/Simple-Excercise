@@ -6,6 +6,6 @@ def calculate_age(birthdate):
     age = today.year - birthdate.year - ((today.month, today.day) < (birthdate.month, birthdate.day))
     return age
 
-birthdate = datetime.date(1990, 5, 15)
+birthdate = datetime.date(input('enter date of Birth'))
 age = calculate_age(birthdate)
 print("The age is:", age)
